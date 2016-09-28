@@ -1,0 +1,35 @@
+
+// manifest.json
+// parsed onload
+
+{
+    "manifest_version": 2,
+    "name": "Eventbrite",
+    "version": "1.0",
+    "description": "Shows popular events happening next weekend near you.",
+    
+    "browser_action": {
+        "default_icon": "/img/icon16.png",
+        "default_popup": "index.html",
+        "default_title": "Eventbrite extension"
+    },
+
+    "icons": { 
+        "48": "/img/icon48.png",
+        "128": "/img/icon128.png"
+    },
+
+    "background": {
+        "scripts": ["/js/jquery.min.js", "/js/main.js"],
+        "persistent": true
+    },
+
+    "content_scripts": [ {
+        "js": [ "/js/jquery.min.js", "/js/main.js"],
+        "matches": [ "<all_urls>"]
+    }],
+
+    "permissions": [
+        "geolocation"
+    ]
+}

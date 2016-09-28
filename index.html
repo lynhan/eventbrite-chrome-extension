@@ -1,0 +1,39 @@
+
+<!-- main.html -->
+
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <title>Get excited</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="/css/main.css" />
+
+    </head>
+
+
+    <body>
+
+         <!-- show messages -->
+        <div class="status">This extension uses your current location. Sound good?</div>
+
+        <!-- ask for geolocation permission -->
+        <div class = "button-box">
+            <button type = "button" class = "agree-geo-button">Yep!</button>
+            <button type = "button" class = "cancel-geo-button">Never mind</button>
+        </div>
+
+        <!-- render events -->
+        <div class = "results"></div>
+
+    </body>
+    
+    
+    <!-- scripts at bottom so page loads fast -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+
+</html>

@@ -1,0 +1,115 @@
+
+/* main.css */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    width: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+input {
+    display:block;
+    border:0;
+}
+
+
+/* div */
+
+
+.status {
+    font-weight: 900;
+    text-align: center;
+}
+.results {  /* contains events */
+    margin-top: 15px;
+}
+.event { 
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    border-top: 1px;
+    border-top-style: dashed;
+    border-color:#CECECE;
+    padding-top: 30px;
+}
+.name {
+    font-size: 22px;
+}
+.address {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.description {
+    font-size: 14px;
+}
+.button-box {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/* button */
+
+
+button {    
+    cursor:pointer;
+    width:30vw;
+    height:40px;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color:white;
+}
+button:focus {
+    outline: none;
+}
+
+.agree-geo-button {
+    background-color:#86CE59;
+}
+.agree-geo-button:hover {
+    background-color:#B2D495;
+}
+.agree-geo-button:active {
+    background-color:#69A246;
+}
+
+.cancel-geo-button {
+    background-color:#697169;
+}
+.cancel-geo-button:hover {
+    background-color:#7D877E;
+}
+.cancel-geo-button:active {
+    background-color:#4E534E;
+}
+
+
+/* link */
+
+
+a:link {
+    color:#575757; 
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration:none; 
+}      
+a:visited {
+    color:#575757; 
+    text-decoration:none; 
+}
+a:hover {
+    color:#F99511; 
+    text-decoration:none; 
+}  
+a:active {
+    color:#DC0E5D; 
+    text-decoration:none; 
+}  
